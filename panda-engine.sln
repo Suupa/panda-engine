@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{5B05ED2D-E82B-4350-B14B-6BF54ECF3E86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "panda-engine", "panda-engine\panda-engine.vcxproj", "{37B8A6F2-402A-4EFF-A19D-8E9307F122A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B8A6F2-402A-4EFF-A19D-8E9307F122A9}.Debug|x64.ActiveCfg = Debug|x64
+		{37B8A6F2-402A-4EFF-A19D-8E9307F122A9}.Debug|x64.Build.0 = Debug|x64
+		{37B8A6F2-402A-4EFF-A19D-8E9307F122A9}.Release|x64.ActiveCfg = Release|x64
+		{37B8A6F2-402A-4EFF-A19D-8E9307F122A9}.Release|x64.Build.0 = Release|x64
+		{5B05ED2D-E82B-4350-B14B-6BF54ECF3E86}.Debug|x64.ActiveCfg = Debug|x64
+		{5B05ED2D-E82B-4350-B14B-6BF54ECF3E86}.Debug|x64.Build.0 = Debug|x64
+		{5B05ED2D-E82B-4350-B14B-6BF54ECF3E86}.Release|x64.ActiveCfg = Release|x64
+		{5B05ED2D-E82B-4350-B14B-6BF54ECF3E86}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E21DEDB0-62E2-46EF-ACE0-5EE202F17DE0}
+	EndGlobalSection
+EndGlobal
