@@ -3,6 +3,10 @@
 extern Panda::Application* Panda::CreateApplication();
 
 int main(int argc, char** argv) {
+
+	Panda::Log::init();
+	PANDA_CORE_INFO("Initialized Log!");
+
 	auto app = Panda::CreateApplication();
 	app->Run();
 	delete app;

@@ -4,6 +4,7 @@
 
 #include "Panda/Application.h"
 #include "Panda/Core.h"
+#include "Panda/Log.h"
 
 /// <-- Entry Point --> ////
 #include "Panda/EntryPoint.h"

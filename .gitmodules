@@ -1,0 +1,3 @@
+[submodule "panda-engine/vendor/spdlog"]
+	path = panda-engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

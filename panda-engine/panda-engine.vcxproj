@@ -15,9 +15,11 @@
     <ClInclude Include="src\Panda\Application.h" />
     <ClInclude Include="src\Panda\Core.h" />
     <ClInclude Include="src\Panda\EntryPoint.h" />
+    <ClInclude Include="src\Panda\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Panda\Application.cpp" />
+    <ClCompile Include="src\Panda\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -66,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PANDA_PLATFORM_WINDOWS;PANDA_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)panda-engine\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,6 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);PANDA_PLATFORM_WINDOWS;PANDA_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)panda-engine\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
